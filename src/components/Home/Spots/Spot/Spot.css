@@ -1,0 +1,17 @@
+.spot-container{
+    width:70%;
+    margin-left: 200px;
+    margin-bottom:30px;
+    background-color:pink;
+    box-shadow: 0px 10px 20px pink;
+}
+.spot-img img{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.details{
+    width: 80%;
+    text-align: center;
+}

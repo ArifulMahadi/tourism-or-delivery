@@ -1,0 +1,22 @@
+.header-container {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.header{
+    background-color: black;
+    padding: 20px 0;
+}
+
+.header a{
+    text-decoration: none;
+    color: pink;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+.header h1 {
+    color: pink;
+    display: inline;
+}
