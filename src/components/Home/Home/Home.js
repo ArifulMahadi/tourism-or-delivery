@@ -9,7 +9,7 @@ import SubFooter from '../SubFooter/SubFooter';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+            
             <Banner></Banner>
             <Spots></Spots>
             <ExtraSpots></ExtraSpots>

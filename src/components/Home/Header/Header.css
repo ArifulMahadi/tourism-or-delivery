@@ -2,10 +2,11 @@
    align-items: center;
    justify-content: center;
    text-align: center;
+   background-color: black;
+    padding: 20px 0;
 }
 .header{
-    background-color: black;
-    padding: 20px 0;
+    
 }
 
 .header a{

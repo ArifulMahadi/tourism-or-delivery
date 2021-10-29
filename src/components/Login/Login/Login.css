@@ -1,0 +1,22 @@
+.login-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.login-button button{
+    border: none;
+    background-color:pink;
+    color: black;
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+
+@media only screen and (max-width:689px) {
+    .login-container{
+        width: 100%;
+    }
+    }
