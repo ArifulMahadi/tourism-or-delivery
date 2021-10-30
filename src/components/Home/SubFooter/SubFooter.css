@@ -1,0 +1,13 @@
+.sub-footer {
+    background-color: black;
+    color: pink;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+.sub-footer p {
+    width: 50%;
+    margin: auto;
+}

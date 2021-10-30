@@ -5,7 +5,7 @@ import './Spots.css'
 const Spots = () => {
     const [spots, setSpots] = useState([])
     useEffect( () => {
-        fetch('./fakeData.json')
+        fetch("http://localhost:5000/tickets")
         .then(res => res.json())
         .then(data => setSpots(data))
     } , [])

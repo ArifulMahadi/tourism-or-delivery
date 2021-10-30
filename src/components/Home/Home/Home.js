@@ -12,8 +12,8 @@ const Home = () => {
             
             <Banner></Banner>
             <Spots></Spots>
-            <ExtraSpots></ExtraSpots>
             <SubFooter></SubFooter>
+            <ExtraSpots></ExtraSpots>
             <Footer></Footer>
         </div>
     );
