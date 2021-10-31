@@ -13,10 +13,8 @@ const useFirebase = () => {
 
 
     const signInUsingGoogle = () => {
-        signInWithPopup(auth,googleProvider)
-        .then (result => {
-            setUsers(result.user)
-        })
+     return signInWithPopup(auth,googleProvider)
+      
     }
 
     useEffect( () =>{
