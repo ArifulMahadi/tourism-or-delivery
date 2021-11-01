@@ -15,9 +15,7 @@ const Booking = () => {
 
     const matchingBooks = books.find(book => book.id = parseInt(serviceId));
     const {id, name, description, img} = matchingBooks || {};
-    console.log(name);
-    
-    
+    console.log(name); 
     return (
      <div className='booking-container'>        
            <div className="booking-item">
