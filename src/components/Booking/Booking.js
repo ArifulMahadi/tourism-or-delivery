@@ -8,7 +8,7 @@ const Booking = () => {
     const { serviceId } = useParams()
     const [books, setBooks] = useState([])
     useEffect( () => {
-            fetch('http://localhost:5000/tickets')
+            fetch('https://cryptic-lake-43440.herokuapp.com/tickets')
             .then(res => res.json())
             .then (data =>setBooks(data))
     } ,[])
@@ -25,9 +25,8 @@ const Booking = () => {
                 <h1>{name}</h1>
                 <p>{description}</p>
                <Link to="/shipping">
-                    <button>Order Now</button>
+                    <button style={{border:"none", backgroundColor:"black",color:"pink",padding:"15px 30px",borderRadius:"10px"}}>Order Now</button>
                </Link>
-                <button>Delete</button>
            </div>                
      </div>
     );

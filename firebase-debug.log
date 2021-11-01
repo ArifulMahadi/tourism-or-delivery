@@ -1,0 +1,39 @@
+[debug] [2021-11-01T11:54:57.034Z] ----------------------------------------------------------------------
+[debug] [2021-11-01T11:54:57.036Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\uesr\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-11-01T11:54:57.037Z] CLI Version:   9.21.0
+[debug] [2021-11-01T11:54:57.037Z] Platform:      win32
+[debug] [2021-11-01T11:54:57.037Z] Node Version:  v14.17.1
+[debug] [2021-11-01T11:54:57.045Z] Time:          Mon Nov 01 2021 17:54:57 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-01T11:54:57.045Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-01T11:54:57.112Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-01T11:54:57.112Z] > authorizing via signed-in user (ariful.mahadi@gmail.com)
+[debug] [2021-11-01T11:54:57.112Z] [iam] checking project hello-traveller-c0bf9 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-11-01T11:54:57.114Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-01T11:54:57.114Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-01T11:54:58.187Z] <<< HTTP RESPONSE 200 {"date":"Mon, 01 Nov 2021 11:54:58 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-01T11:54:58.194Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hello-traveller-c0bf9:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-11-01T11:55:00.229Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 01 Nov 2021 11:55:00 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1350","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-01T11:55:00.232Z] > refreshing access token with scopes: []
+[debug] [2021-11-01T11:55:00.232Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-01T11:55:04.747Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 01 Nov 2021 11:55:05 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-01T11:55:04.801Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hello-traveller-c0bf9 [none]
+[debug] [2021-11-01T11:55:21.655Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hello-traveller-c0bf9 200
+[debug] [2021-11-01T11:55:21.655Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hello-traveller-c0bf9 {"projectId":"hello-traveller-c0bf9","projectNumber":"202299998760","displayName":"hello-traveller","name":"projects/hello-traveller-c0bf9","resources":{"hostingSite":"hello-traveller-c0bf9"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'hello-traveller-c0bf9'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-11-01T11:55:21.659Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-01T11:55:21.659Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-01T11:55:21.961Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Mon, 01 Nov 2021 11:55:22 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-01T11:55:21.970Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/hello-traveller-c0bf9/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-11-01T11:55:54.260Z] Error: connect ETIMEDOUT 142.250.194.42:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 142.250.194.42:443

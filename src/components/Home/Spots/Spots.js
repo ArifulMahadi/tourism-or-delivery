@@ -5,7 +5,7 @@ import './Spots.css'
 const Spots = () => {
     const [spots, setSpots] = useState([])
     useEffect( () => {
-        fetch("http://localhost:5000/tickets")
+        fetch("https://cryptic-lake-43440.herokuapp.com/tickets")
         .then(res => res.json())
         .then(data => setSpots(data))
     } , [])
