@@ -12,7 +12,7 @@ const Spots = () => {
     return (
            <div className='spots-container'>
                <div className="heading">
-                   <h1>Our Tourism place</h1>
+                   <h1>Our Tourism places</h1>
                </div>
                 <div className='spots-container'>
                 {
